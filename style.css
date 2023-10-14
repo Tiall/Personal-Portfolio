@@ -1,0 +1,52 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 80px;
+    background-image: linear-gradient(to bottom, #000000 0%, #000033 33%, #0066CC 100%);
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    max-width: 1140px;
+    padding-inline: 1rem;
+    margin-inline: auto;
+}
+
+.nav-stuff {
+    background-image: linear-gradient(to bottom, #000000 0%, #000033 33%, #0066CC 100%);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100vh;
+
+    border-bottom: solid 1px #626262;
+}
+
+main {
+    max-width: 1140px;
+    margin-inline: auto;
+}
+
+.container {
+    text-align: left !important;
+    padding-block: 0 !important;
+    max-width: 1140px;
+    margin-inline: auto;
+}
+
+.album-text {
+    margin-bottom: -60px;
+}
+
+.col-lg-6{
+    width: 100%;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+#contact a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}

@@ -50,3 +50,8 @@ h5 {
     font-weight: bold;
     color: inherit;
 }
+
+.card-img-top {
+    max-width: fit-content;
+    margin: auto;
+}

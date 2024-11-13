@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding-top: 80px;
-    background-image: linear-gradient(to bottom, #000000 0%, #000033 33%, #0066CC 100%);
+    background-image: linear-gradient(to bottom, #000000 0%, #000033 33%, #5234B5 100%);
     background-repeat: no-repeat;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .nav-stuff {
-    background-image: linear-gradient(to bottom, #000000 0%, #000033 33%, #0066CC 100%);
+    background-image: linear-gradient(to bottom, #000000 0%, #000033 33%, #5234B5 100%);
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto 100vh;

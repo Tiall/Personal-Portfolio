@@ -73,3 +73,13 @@ h5 {
 .card {
     margin-bottom: 1rem;
 }
+
+.hero {
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    border-radius: 15px;
+    border: 4px #202020 solid;
+    margin: -4px;
+    object-fit: cover;
+}

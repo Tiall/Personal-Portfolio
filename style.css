@@ -12,16 +12,20 @@ body {
     margin-inline: auto;
 }
 
+.nav-buttons {
+    margin-left: auto;
+}
+
 .nav-stuff {
     background-image: linear-gradient(to bottom, #000000 0%, #000033 33%, #5234B5 100%);
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto 100vh;
-
     border-bottom: solid 1px #626262;
 }
 
 main {
+    padding-top: 50px;
     max-width: 1140px;
     margin-inline: auto;
 }
@@ -54,4 +58,18 @@ h5 {
 .card-img-top {
     max-width: fit-content;
     margin: auto;
+}
+
+.card-body a {
+    background-color: #212529;
+    border-color: #5234B5;
+}
+
+.card-body a:hover {
+    background-color: #7456D7;
+    border-color: #5234B5;
+}
+
+.card {
+    margin-bottom: 1rem;
 }

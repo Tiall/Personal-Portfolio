@@ -22,11 +22,11 @@
                 <p style="float: right; margin-block: 0.5rem;">Luke Lanning</p>
             </a>
             
-            <div>
+            <div class="nav-buttons">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Home </a> <!--active-->
+                    <a class="nav-item nav-link active" href="index.html">Home </a> <!--active-->
                     <a class="nav-item nav-link" href="about.html">About</a>
-                    <a class="nav-item nav-link" href="software.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
                 </div>
             </div>
         </nav>
@@ -37,7 +37,8 @@
             <div class="row py-lg-4">
                 <div class="col-lg-6 col-md-8">
                     <h1 class="fw-light">Luke Lanning</h1>
-                    <p class="lead text-body-secondary">This is the website for the Software Developer / Graphic Designer / Indie Video Game Developer, Luke Lanning.</p>
+                    <p class="lead text-body-secondary">Welcome to the website for the <b>Software Developer</b> / <b>Graphic Designer</b> / <b>Indie Video Game Developer</b>: Luke Lanning.</p>
+                    <p class="lead text-body-secondary">Thank you for checking out my site! I enjoy working with technology and making things!</p>
                     <!--<p>
                         <a href="#" class="btn btn-primary my-2">Main call to action</a>
                         <a href="#" class="btn btn-secondary my-2">Secondary action</a>
@@ -46,117 +47,59 @@
             </div>
         </section>
 
-        <section id="about" class="py-5 text-center container">
-            <div class="row py-lg-4">
-                <div class="col-lg-6 col-md-8">
-                    <h1 class="fw-light">About</h1>
-                    <p class="lead text-body-secondary">Skycat Software was officially founded in 2023 when the team, consisting of three developers, broke off from Starlight Software. Prior to breaking off, the group that would eventually form Skycat Software started working on individual projects, however the only project that was completed and released before separation was Droplets, an arcade style video game.</p>
-                    <!--<p>
-                        <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                    </p>-->
+        <br />
+
+        <section id="preview" class="py-5 text-center container">
+            <div class="col-lg-6 col-md-8">
+                <h1 class="fw-light">Preview</h1>
+                <p class="lead text-body-secondary">Here are a few of the projects I have worked on! To see more of my work check out my <a href="portfolio.html">Portfolio page</a>.</p>
+                <!--<p>
+                    <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                    <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                </p>-->
+            </div>
+
+            <div class="row row-cols-auto text-center d-flex justify-content-center">
+                <div>
+                    <div class="card col" style="width: 18rem;">
+                        <img src="images/droplets.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Droplets</h5>
+                            <p class="card-text">A relaxing arcade style game where you dodge raindrops as Flambe, a small ball of fire. Droplets is also the first project released by a Skycat Software developer.</p>
+                            <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card col" style="width: 18rem;">
+                        <img src="images/template.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Northwest Logo Practice</h5>
+                            <p class="card-text">A quick recreation of the Waukee Northwest Highschool Logo. This was created as practice for a graphic design class taken at this highschool.</p>
+                            <a href="NWLogo.html" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card col" style="width: 18rem;">
+                        <img src="images/template.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Skycat Software</h5>
+                            <p class="card-text">A website I created to publish the projects my friends and I create. If it looks similar to this page, then I have not published the updated look of the page yet.</p>
+                            <a href="https://skycatsoftware.com/" class="btn btn-primary">Visit Page</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="software" class="py-5 text-center container album-text">
-            <div class="row py-lg-4">
-                <div class="col-lg-6 col-md-8">
-                    <h1 class="fw-light">Software</h1>
-                    <p class="lead text-body-secondary">Various projects and software developed by the Skycat Software team. </p>
-                    <!--<p>
-                        <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                    </p>-->
-                </div>
-            </div>
-        </section>
-
-        <div class="album py-5">
-            <div class="container">
-
-                <h4>Released</h4>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top" alt="Droplets Image" title="Droplet's Flambe" width="100%" src="images/droplets.png" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                            <div class="card-body">
-                                <h5>Droplets</h5>
-                                <p class="card-text">A relaxing arcade style game where you dodge raindrops as Flambe, a small ball of fire. Droplets is also the first project released by a Skycat Software developer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://starlight.software/droplets/index.html'">Web</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">App</button>
-                                    </div>
-                                    <small class="text-body-secondary">Video Game</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top" alt="" title="" width="100%" src="images/template.png" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                            <div class="card-body">
-                                <h5>CipherTree</h5>
-                                <p class="card-text">An online tool that allows you to encode text using an inputted string or text file as a key to encode or decode the text.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Web</button> <!-- onclick="window.location.href='https://starlight.software/droplets/index.html'" -->
-                                    </div>
-                                    <small class="text-body-secondary">Website</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br />
-
-                <h4>Unreleased</h4> <!-- Use class 'disabled' for buttons in this catagory-->
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top" alt="" title="" width="100%" src="images/template.png" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                            <div class="card-body">
-                                <h5>Space Game</h5>
-                                <p class="card-text">A 3D space game that is currently being developed by multiple Skycat Software team members.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary disabled">App</button>
-                                        <!--<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
-                                    </div>
-                                    <small class="text-body-secondary">Video Game</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Template-->
-                    <!--<div class="col">
-                        <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top" alt="" title="" width="100%" height="225" src="images/template.png" preserveAspectRatio="xMidYMid slice" focusable="false" />
-                            <div class="card-body">
-                                <h5>Project Title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary disabled">View</button>-->
-                                        <!--<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
-                                    <!--</div>
-                                    <small class="text-body-secondary">Type</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>-->
-
-                </div>
-            </div>
-        </div>
+        <br />
 
         <section id="contact" class="py-5 text-center container">
             <div class="row py-lg-4">
                 <div class="col-lg-6 col-md-8">
                     <h1 class="fw-light">Contact</h1>
-                    <p class="">Contact us with ideas, bug reports, and feedback at <a href="mailto:contact@skycatsoftware.com">contact@skycatsoftware.com</a>!</p>
+                    <p class="lead text-body-secondary">Contact me with feedback, business proposals, and more at <a href="mailto:luke@lannings.org">luke@lannings.org</a>!</p>
                     <!--<p>
                         <a href="#" class="btn btn-primary my-2">Main call to action</a>
                         <a href="#" class="btn btn-secondary my-2">Secondary action</a>

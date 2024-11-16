@@ -60,18 +60,22 @@ h5 {
     margin: auto;
 }
 
-.card-body a {
+.card-body a, .btn-nice {
     background-color: #212529;
     border-color: #5234B5;
 }
 
-.card-body a:hover {
+.card-body a:hover, .btn-nice:hover {
     background-color: #7456D7;
     border-color: #5234B5;
 }
 
 .card {
     margin-bottom: 1rem;
+}
+
+.card-img-top {
+    object-fit: contain;
 }
 
 .hero {

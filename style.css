@@ -77,6 +77,12 @@ h5 {
 .card-img-top {
     object-fit: contain;
 }
+.svg {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    padding: 40px;
+}
 
 .hero {
     width: 100%;

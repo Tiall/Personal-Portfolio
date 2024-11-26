@@ -78,10 +78,15 @@ h5 {
     object-fit: contain;
 }
 .svg {
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    min-height: 196px;
     background-color: white;
     padding: 40px;
+    padding-inline: 90px;
+}
+.svg-big {
+    padding: 0;
+    background-color: transparent;
 }
 
 .hero {

@@ -83,12 +83,16 @@ h5 {
     background-color: white;
     padding: 0;
     padding-inline: 40px;
+    margin: auto;
 }
 .svg-big {
     padding: 0;
     
     background-color: transparent;
 }
+/*.svg-too-small {
+    margin: auto;
+}*/
 
 .hero {
     width: 100%;

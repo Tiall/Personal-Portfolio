@@ -81,11 +81,12 @@ h5 {
     width: 100%;
     min-height: 196px;
     background-color: white;
-    padding: 40px;
-    padding-inline: 90px;
+    padding: 0;
+    padding-inline: 40px;
 }
 .svg-big {
     padding: 0;
+    
     background-color: transparent;
 }
 
